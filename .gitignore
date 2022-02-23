@@ -1,0 +1,29 @@
+# VSCode 
+.vscode
+*.code-workspace
+
+# Cache Python
+*.pyc
+system/**/__pycache__/*.*
+
+# Enviorementes
+.venv/
+
+# Keys Enviorementes
+# system/.env
+
+# Database Local
+system/*.sqlite3
+
+# Media Files
+system/media/
+
+# Static Toor Files
+system/staticfiles/
+
+# Migrations from Applications
+system/apps/**/migrations/*.*
+!system/apps/**/migrations/__init__.py
+
+# Fixtures from Applications
+system/apps/**/fixtures/*.*

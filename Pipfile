@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.2.*"
+djangorestframework = "*"
+unipath = "*"
+python-dotenv = "*"
+pillow = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+django-widget-tweaks = "*"
+drf-yasg = "*"
+easy-thumbnails-rest = "*"
+django-filter = "*"
+
+[dev-packages]
+django-extensions = "*"
+ptpython = "*"
+ipython = "*"
+django-debug-toolbar = "*"
+django-tabulate = "*"
+
+[requires]
+python_version = "3.8"
